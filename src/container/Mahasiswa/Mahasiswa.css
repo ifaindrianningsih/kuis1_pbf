@@ -1,0 +1,86 @@
+.mahasiswa{
+    width: 60%;
+    padding: 20px;
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 16px rgba(0,0,0,0,5);
+    display: flex;
+    margin: 20px auto;
+
+}
+
+.post-mahasiswa{
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.post-mahasiswa h3{
+    color: orangered;
+}
+
+.gambar-mahasiswa{
+    height: 100px;
+    width: 120px;
+    margin-right: 20px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.gambar-mahasiswa img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.konten-mahasiswa{
+    flex: 1;
+}
+
+.konten-mahasiswa div.nama-mahasiswa{
+    font-size: 20px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.gambar-mahasiswa img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.konten-mahasiswa{
+    flex: 1;
+}
+
+.konten-mahasiswa div.nama-mahasiswa{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.konten-mahasiswa p.nim-mahasiswa{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.konten-mahasiswa p.alamat-mahasiswa{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.konten-mahasiswa p.hp-mahasiswa{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.konten-mahasiswa p.angkatan-mahasiswa{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.konten-mahasiswa p.status-mahasiswa{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
