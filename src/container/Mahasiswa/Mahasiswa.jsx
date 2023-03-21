@@ -18,7 +18,7 @@ class Mahasiswa extends Component{
     }
 
     ambilDataDariServerAPI = () => {    
-        fetch('http://localhost:3001/mahasiswa?_sort=id&_order=asc') // alamat URL API yang ingin kita ambil datanya
+        fetch('http://localhost:3001/mahasiswa?_sort=id&_order=desc') // alamat URL API yang ingin kita ambil datanya
             .then(response => response.json())  // ubah response data dari URL API menjadi sebuah data json
             .then(jsonHasilAmbilDariAPI => {
                 this.setState({
@@ -65,7 +65,7 @@ class Mahasiswa extends Component{
     render(){
         return(
             <div className="post-mahasiswa">
-                <div className="form pb-2 border-bottom">
+                <div className="form pb-4 border-bottom">
                     <h3>Tambah Mahasiswa</h3>
                     <div className="form-group row">
                         <label htmlFor="NIM" className="col-sm-2 col-form-label">NIM</label>

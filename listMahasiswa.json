@@ -19,6 +19,16 @@
       "hp": "082142958043",
       "angkatan": "2020",
       "status": "Aktif"
+    },
+    {
+      "userId": 1,
+      "id": 1679380978854,
+      "NIM": "2041720214",
+      "nama": "Lia Puspita Dewi",
+      "alamat": "Mojokerto",
+      "hp": "081564381234",
+      "angkatan": "2020",
+      "status": "Aktif"
     }
   ],
   "profile": {

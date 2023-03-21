@@ -4,7 +4,7 @@ const Mhs = (props) => {
     return (
         <div className="mahasiswa">
             <div className="gambar-mahasiswa">
-                <img src="http://placeimg.com/80/80/tech" alt="Gambar Mahasiswa" />
+                <img src="https://i0.wp.com/tambahpinter.com/wp-content/uploads/2022/12/Gambar-Kartun-Muslimah-Dewasa-Cantik-672x840.jpg" alt="Gambar Mahasiswa" />
             </div>
             <div className="container px-4 py-2">
             <div className="konten-mahasiswa">
